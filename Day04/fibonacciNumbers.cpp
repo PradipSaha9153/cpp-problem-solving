@@ -8,6 +8,7 @@ void fibonacci(int n) {
         cout << "Fibonacci series of " << n << " is: 0";
         return;
     }
+    
     int a = 0, b = 1;
 
     cout << "Fibonacci series of " << n << " is: " << endl;
