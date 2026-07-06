@@ -1,4 +1,4 @@
-// Program to Find Factorial of a Large Number Using Recursion
+// Program to Find Factorial of a Number Using Recursion
 
 #include<iostream>
 using namespace std;
