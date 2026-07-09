@@ -12,7 +12,7 @@ float average(int arr[], int size) {
 }
 
 int main() {
-    int n;
+    int n = 0;
 
     cout << "Enter array size: ";
     cin >> n;
