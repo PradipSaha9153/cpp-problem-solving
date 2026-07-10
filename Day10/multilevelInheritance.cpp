@@ -1,4 +1,4 @@
-// Program that demonstrate single level inheritance
+// Program that demonstrate multilevel inheritance
 
 #include<iostream>
 using namespace std;
