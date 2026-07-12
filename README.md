@@ -8,8 +8,8 @@ This repository documents my journey of improving my C++ programming skills by s
 
 ## 📌 Objectives
 
-* Solve **10 C++ programs every day**
 * Strengthen problem-solving skills
 * Learn C++ step by step
 * Improve coding speed and logical thinking
 * Build a consistent coding habit
+* Learn DSA
