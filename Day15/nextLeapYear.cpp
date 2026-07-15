@@ -12,13 +12,11 @@ int main() {
     cout << "Enter a year: ";
     cin >> year;
 
-    int i = 1;
     do {
         if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
             cout << "Leap year: " << year << endl;
             return 0;
         }
         year++;
-        i++;
-    } while(i <= 5);
+    } while(true);
 }
