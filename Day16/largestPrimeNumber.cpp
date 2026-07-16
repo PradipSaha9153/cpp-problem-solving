@@ -1,3 +1,7 @@
+/*
+This program finds the largest prime factor of a given number n. It checks every factor of n, determines whether the factor is prime, and stores the largest prime factor found. Finally, it prints the largest prime factor. If the input number is less than 2, it prints -1.
+*/
+
 #include <iostream>
 #include <cmath>
 using namespace std;
