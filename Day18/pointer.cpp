@@ -30,6 +30,7 @@ int main() {
     */
 
     // Pointer to Pointer
+    /*
     int x = 10;
     int* ptr = &x;
     int** ptrPtr = &ptr;
@@ -39,4 +40,14 @@ int main() {
     cout << ptr << endl;      // 0x7ffd82afd2a4
     cout << *ptrPtr << endl;  // 0x7ffd82afd2a4
     cout << **ptrPtr << endl; // 10
+    */
+
+    // Null Pointer
+    int* ptr = NULL;
+    int* ptr1 = nullptr;
+
+    cout << ptr << endl;
+    cout << ptr1 << endl;
+
+    // cout << *ptr << endl; // Error (Segmentation fault (core dumped))
 }
