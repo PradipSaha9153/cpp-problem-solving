@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void changeA(int &b) { // Pass by Reference using Reference
+void changeA(int &b) { // Pass by Reference using Alias
     b = 20;
 }
 

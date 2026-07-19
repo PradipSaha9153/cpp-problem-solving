@@ -11,6 +11,7 @@ int main() {
     cout << ptr << endl;
     */
 
+
     // Dereference Operator(*)
     /*
     int x = 10;
@@ -18,6 +19,7 @@ int main() {
     
     cout << *ptr << endl;
     */
+
 
     // Changing value using pointer
     /*
@@ -28,6 +30,7 @@ int main() {
 
     cout << x << endl;
     */
+
 
     // Pointer to Pointer
     /*
@@ -42,7 +45,9 @@ int main() {
     cout << **ptrPtr << endl; // 10
     */
 
+
     // Null Pointer
+    /*
     int* ptr = NULL;
     int* ptr1 = nullptr;
 
@@ -50,4 +55,50 @@ int main() {
     cout << ptr1 << endl;
 
     // cout << *ptr << endl; // Error (Segmentation fault (core dumped))
+    */
+
+
+    // Array Pointer
+    /*
+    int arr[] = {1, 2, 3, 4, 5};
+
+    cout << arr << endl;
+    cout << *arr << endl;
+    */
+
+
+    // Pointer Arithmatic
+    /*
+    int a = 15;
+    int *p = &a;
+
+    cout << p << endl;
+    p++;
+    cout << p << endl;
+    */
+
+    // Using Array
+    /*
+    int arr[] = {1, 2, 3, 4, 5};
+
+    for(int i = 0; i < 5; i++)
+        cout << *(arr + i) << endl;
+
+    cout << *arr << endl;
+    */
+
+    // Using Stirng
+    char str[] = "Hello";
+
+    char *ptr = str;
+
+    while(*ptr != '\0') {
+        cout << *ptr;
+        ptr++;
+    }
+
+    cout << endl;
+
+
+    return 0;
 }
