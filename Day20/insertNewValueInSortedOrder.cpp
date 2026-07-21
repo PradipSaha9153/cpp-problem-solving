@@ -6,7 +6,7 @@ int main() {
     int n;
     cout << "Enter array size: ";
     cin >> n;
-    vector<int> arr(n - 1);
+    vector<int> arr(n);
     
     cout << "Enter array values: " << endl;
     for (int i = 0; i < n; i++) {
