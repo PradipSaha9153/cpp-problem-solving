@@ -1,3 +1,21 @@
+/*
+Sample Input 1
+Knowledge is the greatest gift
+
+Sample Output 
+9
+
+Explanation
+Words and their number of alphabetic characters:
+Knowledge: 9
+is: 2
+the: 3
+greatest: 8
+gift: 4
+
+The longest word is "Knowledge" with 9 characters.
+*/
+
 #include <iostream>
 #include <string>
 using namespace std;
