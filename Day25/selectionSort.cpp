@@ -22,8 +22,8 @@ void selectionSort(vector<int> &arr, int n) {
 }
 
 void display(vector<int> arr, int n) {
-    for(int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
+    for(int val: arr) {
+        cout << val << " ";
     }
     cout << endl;
 } 
