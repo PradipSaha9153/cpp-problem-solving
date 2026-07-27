@@ -16,7 +16,7 @@ void insertionSort(vector<int> &arr, int n) {
     }
 }
 
-void display(vector<int> arr, int n) {
+void display(vector<int> arr) {
     for(int val: arr) {
         cout << val << " ";
     }
@@ -36,13 +36,13 @@ int main() {
     
     cout << endl;
     cout << "After sorting: " << endl;
-    display(arr, n);
+    display(arr);
 
     insertionSort(arr, n);
 
     cout << endl;
     cout << "After sorting: " << endl;
-    display(arr, n);
+    display(arr);
 
     return 0;
 }
