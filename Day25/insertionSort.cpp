@@ -33,6 +33,10 @@ int main() {
         cout << "arr[" << i << "]: ";
         cin >> arr[i];
     }
+    
+    cout << endl;
+    cout << "After sorting: " << endl;
+    display(arr, n);
 
     insertionSort(arr, n);
 
