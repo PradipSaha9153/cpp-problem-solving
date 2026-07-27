@@ -21,7 +21,7 @@ void selectionSort(vector<int> &arr, int n) {
     }
 }
 
-void display(vector<int> arr, int n) {
+void display(vector<int> arr) {
     for(int val: arr) {
         cout << val << " ";
     }
@@ -39,11 +39,15 @@ int main() {
         cin >> arr[i];
     }
 
+    cout << endl;
+    cout << "After sorting: " << endl;
+    display(arr);
+    
     selectionSort(arr, n);
 
     cout << endl;
     cout << "After sorting: " << endl;
-    display(arr, n);
+    display(arr);
 
     return 0;
 }
